@@ -33,7 +33,7 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-3" data-testid="nav-logo">
-          <img src="images/yglogo.png" alt="YG Web Studio" className="h-10 w-10 object-contain" />
+          <img src="/yglogo.png" alt="YG Web Studio" className="h-10 w-10 object-contain" />
           <div className="leading-tight">
             <div className="font-display font-extrabold tracking-wide">
               <span className="text-gold-gradient">YG</span> <span className="text-white">WEB STUDIO</span>

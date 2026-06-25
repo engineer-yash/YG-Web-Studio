@@ -17,8 +17,8 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-14 items-start">
           <motion.div
             ref={ref}
-            initial={{ opacity: 0, x: -40 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: -40 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7 }}
           >
             <div className="text-xs uppercase tracking-[0.35em] text-gold mb-4">About</div>
