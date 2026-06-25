@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ygwebstudio.vercel.app/sitemap.xml

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "p1",
+    "title": "Komal Jewellers",
+    "category": "Jewellery Website",
+    "image": "",
+    "demoUrl": "#",
+    "githubUrl": "#",
+    "tags": ["React", "Tailwind", "Framer Motion"],
+    "description": "An elegant gold-themed jewellery showcase with collection grid, lookbook and enquiry flow."
+  },
+  {
+    "id": "p2",
+    "title": "Madhukunj Restaurant",
+    "category": "Restaurant Website",
+    "image": "",
+    "demoUrl": "#",
+    "githubUrl": "#",
+    "tags": ["React", "Bootstrap", "EmailJS"],
+    "description": "A warm, mouth-watering restaurant site with menu, gallery and reservation form."
+  },
+  {
+    "id": "p3",
+    "title": "Wild Adventure (Julee Bags)",
+    "category": "E-Commerce Website",
+    "image": "",
+    "demoUrl": "#",
+    "githubUrl": "#",
+    "tags": [".NET", "Bootstrap", "Razorpay"],
+    "description": "A rugged, conversion-focused storefront for outdoor bags with cart and secure checkout."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rohit Sharma",
+    "role": "Owner, Komal Jewellers",
+    "rating": 5,
+    "quote": "YG Web Studio gave our showroom a stunning online presence. Walk-in enquiries went up within weeks of launch."
+  },
+  {
+    "name": "Priya Deshmukh",
+    "role": "Manager, Madhukunj Restaurant",
+    "rating": 5,
+    "quote": "Our new website looks premium and our reservations have nearly doubled. Yash is responsive and detail-obsessed."
+  },
+  {
+    "name": "Amit Patil",
+    "role": "Founder, Wild Adventure",
+    "rating": 5,
+    "quote": "Clean code, beautiful design and very affordable. The checkout works flawlessly on mobile."
+  },
+  {
+    "name": "Sneha Kulkarni",
+    "role": "Co-founder, Bloom Boutique",
+    "rating": 5,
+    "quote": "From concept to launch in under two weeks. YG Web Studio is hands down the best decision we made this year."
+  }
+]

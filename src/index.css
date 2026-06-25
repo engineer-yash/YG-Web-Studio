@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Manrope', 'Poppins', system-ui, sans-serif;
+  background-color: #071824;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection { background: rgba(212, 175, 55, 0.35); color: #fff; }
+
+/* Premium gold text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F1D87A 0%, #D4AF37 50%, #A8862A 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-shimmer {
+  background: linear-gradient(90deg, #A8862A 0%, #F1D87A 25%, #FFF6CF 50%, #F1D87A 75%, #A8862A 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 5s linear infinite;
+}
+
+/* Glass card */
+.glass {
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.015));
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.glass-strong {
+  background: linear-gradient(180deg, rgba(14,42,54,0.85), rgba(7,24,36,0.85));
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  backdrop-filter: blur(20px);
+}
+
+/* Gold border accent line */
+.gold-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212,175,55,0.7), transparent);
+}
+
+/* Decorative corner cuts (mimic the business card) */
+.corner-cut {
+  position: relative;
+}
+.corner-cut::before, .corner-cut::after {
+  content: '';
+  position: absolute;
+  width: 220px; height: 220px;
+  background: linear-gradient(135deg, #D4AF37 0%, #A8862A 100%);
+  z-index: 0;
+  filter: blur(0.2px);
+}
+.corner-cut::before { top:-110px; left:-110px; transform: rotate(45deg); }
+.corner-cut::after { bottom:-110px; right:-110px; transform: rotate(45deg); }
+
+/* Scroll thumb */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #071824; }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg,#D4AF37,#A8862A); border-radius: 8px; }
+
+/* Reveal helper */
+.section-pad { padding: 96px 0; }
+@media (max-width: 768px) { .section-pad { padding: 64px 0; } }
+
+/* Button: gold pill with glow */
+.btn-gold {
+  position: relative;
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #071824;
+  background: linear-gradient(135deg, #F1D87A 0%, #D4AF37 50%, #A8862A 100%);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.15) inset, 0 12px 35px rgba(212,175,55,0.35);
+  transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
+}
+.btn-gold:hover { transform: translateY(-2px); box-shadow: 0 0 0 1px rgba(255,255,255,0.25) inset, 0 18px 45px rgba(212,175,55,0.55); filter: brightness(1.05); }
+
+.btn-ghost {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 13px 26px;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: 1px solid rgba(212, 175, 55, 0.55);
+  background: rgba(255,255,255,0.02);
+  transition: all .25s ease;
+}
+.btn-ghost:hover { border-color: #D4AF37; background: rgba(212,175,55,0.08); color: #F1D87A; }
+
+/* Spotlight */
+.spotlight {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background: radial-gradient(600px circle at var(--mx, 50%) var(--my, 50%), rgba(212,175,55,0.12), transparent 60%);
+  transition: background .15s ease;
+}
+
+/* Particles dots */
+.dot {
+  position: absolute;
+  width: 6px; height: 6px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(241,216,122,0.95), rgba(212,175,55,0.25) 60%, transparent 70%);
+  box-shadow: 0 0 14px rgba(212,175,55,0.55);
+}
+
+/* Section title underline */
+.title-accent { position: relative; display: inline-block; }
+.title-accent::after {
+  content: ''; display: block; margin-top: 12px;
+  width: 64px; height: 3px; border-radius: 999px;
+  background: linear-gradient(90deg, #D4AF37, transparent);
+}

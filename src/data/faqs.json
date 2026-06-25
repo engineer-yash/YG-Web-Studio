@@ -1,0 +1,8 @@
+[
+  { "q": "How long does it take to build my website?", "a": "Most business websites are designed and delivered within 7–14 days. Larger e-commerce projects can take 3–4 weeks depending on scope." },
+  { "q": "Do you offer support after launch?", "a": "Absolutely. Every project includes 30 days of free post-launch support, and you can subscribe to our monthly maintenance plan for ongoing updates." },
+  { "q": "Will my website be mobile-friendly?", "a": "100%. Every site we build is fully responsive — pixel-perfect on mobile, tablet, laptop and desktop." },
+  { "q": "Is SEO included?", "a": "Yes — on-page SEO, meta tags, sitemap, robots.txt, schema and performance optimisation are included in every project." },
+  { "q": "How much does a website cost?", "a": "Business websites start from a very affordable budget. Pricing depends on pages, features and integrations. Reach out for a free quote." },
+  { "q": "Do you provide hosting and domain?", "a": "Yes, we can set up hosting, domain, SSL and emails for you — or deploy on free platforms like Vercel & Netlify." }
+]

@@ -1,0 +1,11 @@
+[
+  { "icon": "Briefcase", "title": "Business Website", "desc": "Modern corporate sites that build trust and convert visitors into customers." },
+  { "icon": "UtensilsCrossed", "title": "Restaurant Website", "desc": "Mouth-watering menus, reservations and gallery experiences for restaurants." },
+  { "icon": "Gem", "title": "Jewellery Website", "desc": "Luxurious gold-themed showcases for jewellery brands & collections." },
+  { "icon": "ShoppingCart", "title": "E-Commerce Website", "desc": "Conversion-focused stores with cart, checkout and payment gateways." },
+  { "icon": "Rocket", "title": "Landing Pages", "desc": "High-impact one-page funnels designed to capture leads and drive sales." },
+  { "icon": "Wrench", "title": "Website Maintenance", "desc": "Updates, backups, monitoring and security so your site stays healthy 24/7." },
+  { "icon": "Search", "title": "SEO Optimization", "desc": "On-page + technical SEO to help your business rank higher on Google." },
+  { "icon": "Paintbrush", "title": "Website Redesign", "desc": "Refresh dated sites with modern UI, better UX and faster load times." },
+  { "icon": "Server", "title": "Hosting & Deployment", "desc": "Fast, reliable hosting setup with domains, SSL and CI/CD ready." }
+]

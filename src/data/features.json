@@ -1,0 +1,8 @@
+[
+  { "icon": "Sparkles", "title": "Modern Design", "desc": "Clean, premium aesthetics built around your brand identity." },
+  { "icon": "Smartphone", "title": "Mobile Responsive", "desc": "Pixel-perfect on every screen — phone, tablet, laptop, desktop." },
+  { "icon": "Search", "title": "SEO Friendly", "desc": "Optimised for search engines from day one with meta, schema and sitemap." },
+  { "icon": "Zap", "title": "Fast Performance", "desc": "Lightning-fast load times with optimised images and clean code." },
+  { "icon": "BadgeIndianRupee", "title": "Affordable Pricing", "desc": "Premium quality at startup-friendly rates — no hidden costs." },
+  { "icon": "LifeBuoy", "title": "Maintenance Support", "desc": "Always-on support with monthly updates, backups and tweaks." }
+]
