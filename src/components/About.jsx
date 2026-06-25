@@ -17,7 +17,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-14 items-start">
           <motion.div
             ref={ref}
-            initial={{ opacity: 0, y: -40 }}
+            initial={{ opacity: 0, y: 40 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7 }}
           >

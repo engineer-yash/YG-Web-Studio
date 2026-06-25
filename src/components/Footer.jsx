@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <img src="/yglogo.png" alt="YG" className="w-10 h-10 object-contain" />
+              <img src="yglogo.png" alt="YG" className="w-10 h-10 object-contain" />
               <div className="font-display font-extrabold tracking-wide">
                 <span className="text-gold-gradient">YG</span> <span className="text-white">WEB STUDIO</span>
               </div>
