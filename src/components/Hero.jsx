@@ -25,12 +25,12 @@ export default function Hero() {
           custom={0}
           className="mx-auto mb-8 w-44 h-44 md:w-56 md:h-56 rounded-3xl glass flex items-center justify-center animate-floatY shadow-gold"
         >
-          <img src="/logo.png" alt="YG Web Studio logo" className="w-32 md:w-44 object-contain" />
+          <img src="/yglogo.png" alt="YG Web Studio logo" className="w-32 md:w-44 object-contain" />
         </motion.div>
 
-        <motion.div variants={fadeUp} initial="hidden" animate="show" custom={1} className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold/40 bg-gold/5 text-xs tracking-[0.3em] uppercase text-gold mb-6">
+        {/* <motion.div variants={fadeUp} initial="hidden" animate="show" custom={1} className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold/40 bg-gold/5 text-xs tracking-[0.3em] uppercase text-gold mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-gold animate-pulse" /> Premium Web Studio · Pune, India
-        </motion.div>
+        </motion.div> */}
 
         <motion.h1
           variants={fadeUp}
