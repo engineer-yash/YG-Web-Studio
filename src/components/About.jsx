@@ -46,8 +46,8 @@ export default function About() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 40 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 40 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.1 }}
             className="grid sm:grid-cols-2 gap-5"
           >
