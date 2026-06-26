@@ -3,9 +3,9 @@
     "id": "p1",
     "title": "Komal Jewellers",
     "category": "Jewellery Website",
-    "image": "",
-    "demoUrl": "#",
-    "githubUrl": "#",
+    "image": "/portfolio/kj-logo.png",
+    "demoUrl": "https://komal-imitations.vercel.app/",
+    "githubUrl": "https://github.com/engineer-yash/Komal-Imitations",
     "tags": ["React", "Tailwind", "Framer Motion"],
     "description": "An elegant gold-themed jewellery showcase with collection grid, lookbook and enquiry flow."
   },
@@ -13,9 +13,9 @@
     "id": "p2",
     "title": "Madhukunj Restaurant",
     "category": "Restaurant Website",
-    "image": "",
-    "demoUrl": "#",
-    "githubUrl": "#",
+    "image": "/portfolio/Madhukunj.png",
+    "demoUrl": "https://madhukunj-demo.vercel.app/",
+    "githubUrl": "https://github.com/engineer-yash/Madhukunj-Pure-Veg",
     "tags": ["React", "Bootstrap", "EmailJS"],
     "description": "A warm, mouth-watering restaurant site with menu, gallery and reservation form."
   },
@@ -23,10 +23,10 @@
     "id": "p3",
     "title": "Wild Adventure (Julee Bags)",
     "category": "E-Commerce Website",
-    "image": "",
-    "demoUrl": "#",
-    "githubUrl": "#",
-    "tags": [".NET", "Bootstrap", "Razorpay"],
-    "description": "A rugged, conversion-focused storefront for outdoor bags with cart and secure checkout."
+    "image": "https://www.juleebags.com/images/ban9.jpg",
+    "demoUrl": "https://julee-bags-demo.vercel.app/",
+    "githubUrl": "https://github.com/engineer-yash/Julee-Bags-Demo",
+    "tags": ["React 18", "React Router", "Tailwind", "Swiper"],
+    "description": "A modern, responsive static website for Julee Bags - Quality Bags Manufacturer based in Pune, Maharashtra, India."
   }
 ]
