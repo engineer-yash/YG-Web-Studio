@@ -53,7 +53,7 @@ export default function Hero() {
         <motion.div variants={fadeUp} initial="hidden" animate="show" custom={5} className="mt-10 flex flex-wrap items-center justify-center gap-3 md:gap-4">
           <a href="#contact" className="btn-gold animate-glow text-sm md:text-base" data-testid="hero-free-demo">
             <span className="hidden md:inline">Request a Free Website Demo</span>
-            <span className="md:hidden">Request a Free Demo</span>
+            <span className="md:hidden">Request a Free Website Demo</span>
             <ArrowRight size={18} />
           </a>
           <a href="#portfolio" className="btn-ghost text-sm md:text-base" data-testid="hero-view-portfolio">
