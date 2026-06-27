@@ -50,15 +50,17 @@ export default function Hero() {
           We build premium business websites that help companies attract more customers, establish trust, and grow online.
         </motion.p>
 
-        <motion.div variants={fadeUp} initial="hidden" animate="show" custom={5} className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <a href="#contact" className="btn-gold animate-glow" data-testid="hero-free-demo">
-            Request a Free Website Demo <ArrowRight size={18} />
+        <motion.div variants={fadeUp} initial="hidden" animate="show" custom={5} className="mt-10 flex flex-wrap items-center justify-center gap-3 md:gap-4">
+          <a href="#contact" className="btn-gold animate-glow text-sm md:text-base" data-testid="hero-free-demo">
+            <span className="hidden md:inline">Request a Free Website Demo</span>
+            <span className="md:hidden">Free Demo</span>
+            <ArrowRight size={18} />
           </a>
-          <a href="#portfolio" className="btn-ghost" data-testid="hero-view-portfolio">
+          <a href="#portfolio" className="btn-ghost text-sm md:text-base" data-testid="hero-view-portfolio">
             View Portfolio
           </a>
-          <a href="#contact" className="btn-ghost" data-testid="hero-consult">
-            <Phone size={16} /> Free Consultation
+          <a href="#contact" className="btn-ghost text-sm md:text-base" data-testid="hero-consult">
+            <Phone size={16} /> <span className="hidden md:inline">Free Consultation</span>
           </a>
         </motion.div>
 
