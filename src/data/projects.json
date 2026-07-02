@@ -1,32 +1,62 @@
 [
   {
     "id": "p1",
+    "title": "Indori Sarafa",
+    "category": "Restaurant Website",
+    "image": "/portfolio/indori-sarafa.png",
+    "demoUrl": "https://indori-sarafa-demo.vercel.app/",
+    "githubUrl": "https://github.com/engineer-yash/Indori-Sarafa",
+    "tags": [
+      "React 18",
+      "React Router",
+      "Tailwind CSS",
+      "Framer Motion",
+      "SEO",
+      "Responsive Design"
+    ],
+    "description": "A premium, SEO-optimized restaurant website showcasing authentic Indori street food with an interactive menu, gallery, branch locations, Google Maps integration, and a modern responsive user experience."
+  },
+  {
+    "id": "p2",
     "title": "Komal Jewellers",
     "category": "Jewellery Website",
     "image": "/portfolio/kj-logo.png",
     "demoUrl": "https://komal-imitations.vercel.app/",
     "githubUrl": "https://github.com/engineer-yash/Komal-Imitations",
-    "tags": ["React", "Tailwind", "Framer Motion"],
+    "tags": [
+      "React",
+      "Tailwind",
+      "Framer Motion"
+    ],
     "description": "An elegant gold-themed jewellery showcase with collection grid, lookbook and enquiry flow."
   },
   {
-    "id": "p2",
+    "id": "p3",
     "title": "Madhukunj Restaurant",
     "category": "Restaurant Website",
     "image": "/portfolio/Madhukunj.png",
     "demoUrl": "https://madhukunj-demo.vercel.app/",
     "githubUrl": "https://github.com/engineer-yash/Madhukunj-Pure-Veg",
-    "tags": ["React", "Bootstrap", "EmailJS"],
+    "tags": [
+      "React",
+      "Bootstrap",
+      "EmailJS"
+    ],
     "description": "A warm, mouth-watering restaurant site with menu, gallery and reservation form."
   },
   {
-    "id": "p3",
+    "id": "p4",
     "title": "Wild Adventure (Julee Bags)",
     "category": "E-Commerce Website",
     "image": "https://www.juleebags.com/images/ban9.jpg",
     "demoUrl": "https://julee-bags-proffesionall.vercel.app/",
     "githubUrl": "https://github.com/engineer-yash/Julee-Bags-Demo",
-    "tags": ["React 18", "React Router", "Tailwind", "Swiper"],
+    "tags": [
+      "React 18",
+      "React Router",
+      "Tailwind",
+      "Swiper"
+    ],
     "description": "A modern, responsive static website for Julee Bags - Quality Bags Manufacturer based in Pune, Maharashtra, India."
   }
 ]
